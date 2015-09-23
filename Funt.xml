@@ -34,8 +34,8 @@
       </block>
     </statement>
     <value name="RETURN">
-      <block type="variables_get" id="38">
-        <field name="VAR">Yes</field>
+      <block type="math_number" id="72">
+        <field name="NUM">25</field>
       </block>
     </value>
   </block>
