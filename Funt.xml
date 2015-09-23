@@ -1,1 +1,42 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="variables_set" id="12" inline="true" x="24" y="45">
+    <field name="VAR">Yes</field>
+    <value name="VALUE">
+      <block type="math_number" id="19">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+    <next>
+      <block type="oled_cleardisplay" id="28">
+        <next>
+          <block type="oled_drawnumber" id="60" inline="true">
+            <value name="NUMBER">
+              <block type="procedures_callreturn" id="65">
+                <mutation name="Value"></mutation>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="procedures_defreturn" id="4" inline="false" x="306" y="36">
+    <mutation></mutation>
+    <field name="NAME">Value</field>
+    <statement name="STACK">
+      <block type="variables_set" id="33" inline="true">
+        <field name="VAR">Yes</field>
+        <value name="VALUE">
+          <block type="math_number" id="34">
+            <field name="NUM">25</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <value name="RETURN">
+      <block type="variables_get" id="38">
+        <field name="VAR">Yes</field>
+      </block>
+    </value>
+  </block>
+</xml>
