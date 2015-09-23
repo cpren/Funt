@@ -23,6 +23,16 @@
   <block type="procedures_defreturn" id="4" inline="false" x="306" y="36">
     <mutation></mutation>
     <field name="NAME">Value</field>
+    <statement name="STACK">
+      <block type="variables_set" id="77" inline="true">
+        <field name="VAR">Yes</field>
+        <value name="VALUE">
+          <block type="math_number" id="78">
+            <field name="NUM">15</field>
+          </block>
+        </value>
+      </block>
+    </statement>
     <value name="RETURN">
       <block type="variables_get" id="76">
         <field name="VAR">Yes</field>
