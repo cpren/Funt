@@ -3,7 +3,7 @@
     <field name="VAR">Yes</field>
     <value name="VALUE">
       <block type="math_number" id="19">
-        <field name="NUM">0</field>
+        <field name="NUM">25</field>
       </block>
     </value>
     <next>
