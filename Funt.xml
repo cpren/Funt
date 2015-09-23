@@ -24,8 +24,8 @@
     <mutation></mutation>
     <field name="NAME">Value</field>
     <value name="RETURN">
-      <block type="math_number" id="72">
-        <field name="NUM">25</field>
+      <block type="variables_get" id="76">
+        <field name="VAR">Yes</field>
       </block>
     </value>
   </block>
